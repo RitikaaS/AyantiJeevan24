@@ -1,6 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
+<html>
+  <head>
   <meta charset="utf-8">
   <title>Ayanti Jeevan</title>
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
@@ -27,209 +26,372 @@
   <!-- Main Stylesheet File -->
   <link href="css/style.css" rel="stylesheet">
 
-  <!-- =======================================================
-    Theme Name: BizPage
-    Theme URL: https://bootstrapmade.com/bizpage-bootstrap-business-template/
-    Author: BootstrapMade.com
-    License: https://bootstrapmade.com/license/
-  ======================================================= -->
 </head>
-<body style="background-color:#18d26e;">
-<div class="row">
-  <div class="col-md-12>
-   <header id="header">
-    <div class="container-fluid">
 
-      <div id="logo" class="pull-left">
-        <h1><a href="#intro" class="scrollto">Ayanti Jeevan</a></h1>
-        <!-- Uncomment below if you prefer to use an image logo -->
-       <!-- <a href="#intro"><img src="img/ayantilogo.png" alt="" title="" /></a>-->
-      </div>
-
-    </div>
-  </header>
-</div>
-</div>
-
-<div class="row">
-
-  <div class="col-md-3"></div>
-
-  <div class="col-md-6">
-
-    <section id="contact" class="section-bg wow fadeInUp" style="background-color:#18d26e">
-      <div class="container">
+ 
+  <body>
+    
+      <section id="contact" class="section-bg wow fadeInUp">
+    
+        <div class="container">
 
         <div class="section-header">
-          <h3>Register Here !!</h3>
+          <h3> <img src="img/ayantilogo.png" alt="" title="" height="80px" width="80px"/> REGISTER HERE !!</h3>
+          <p></p>
         </div>
+       
+       </div> <!--container-->
 
-        <div class="form">
-          <div id="sendmessage">Your message has been sent. Thank you!</div>
-          <div id="errormessage"></div>
-         
-          <form action="" method="post" role="form" class="contactForm">
+      <div class="row contact-info">
+          
+          <div class="col-md-2"></div>
+          <div class="col-md-8" style="background-color: black;height:40px">
+            <p style="color:white;padding-top: 10px">Sponsor Details</p>
+          </div>
+
+          <div class="col-md-2"></div>
+
+      </div> <!--contact info-->
+
+        <div class="row">
+          
+          <div class="col-md-2"></div>
+          
+          <div class="col-md-8">
+        
+          <div class="form">
            
-              <div class="form-row">
-              <div class="form-group col-md-6">
-                <input type="text" name="sid" class="form-control" id="name" placeholder="Sponsor ID" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-                <div class="validation"></div>
-              </div>
-              <div class="form-group col-md-6">
-                <input type="text" class="form-control" name="sname" id="email" placeholder="Sponsor Name" data-rule="email" data-msg="Please enter a valid email" />
-                <div class="validation"></div>
-              </div>
-            </div>
+            <div id="sendmessage">Your message has been sent. Thank you!</div>
+            <div id="errormessage"></div>
+           
+            <form action="" method="post" role="form" class="contactForm">
+            
+            <div class="form-row">
 
-             <div class="form-row">
               <div class="form-group col-md-6">
-                <input type="text" name="name" class="form-control" id="name" placeholder="Parent Id" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                <input type="text" name="sid" class="form-control" id="name" placeholder="Sponsor Id" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
                 <div class="validation"></div>
               </div>
-              <div class="form-group col-md-6">
-                <input type="email" class="form-control" name="email" id="email" placeholder="Parent Name" data-rule="email" data-msg="Please enter a valid email" />
-                <div class="validation"></div>
-              </div>
-            </div>
 
-           <div class="form-row">
+              <div class="form-group col-md-6">
+                <input type="text" name="sname" class="form-control" id="name" placeholder="Sponsor Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                <div class="validation"></div>
+              </div>
               
-              <div class="form-group col-md-12">
-                <select name="position" class="form-control" id="name" data-rule="minlen:4">
-                 
-                  <option>Select Position</option>
-                  <option value="Right">Right</option>
-                  <option value="left">Left</option>
-
-                </select>
-                <div class="validation"></div>
-              </div>
-  
             </div>
 
             <div class="form-row">
+
               <div class="form-group col-md-6">
-                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                <input type="text" name="sid" class="form-control" id="name" placeholder="Parent Id" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
                 <div class="validation"></div>
               </div>
+
               <div class="form-group col-md-6">
-                <input type="date" class="form-control" name="dob" id="email" placeholder="DOB" data-rule="email" data-msg="Please enter a valid email" />
+                <input type="text" name="sname" class="form-control" id="name" placeholder="Parent Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
                 <div class="validation"></div>
               </div>
-            </div>
-
-
-            <div class="form-group">
-              <textarea class="form-control" name="address" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Address"></textarea>
-              <div class="validation"></div>
-            </div>
-            
-
-              <div class="form-row">
               
-              <div class="form-group col-md-6">
-              
-               <select name="position" class="form-control" id="name" data-rule="minlen:4">
-                 
-                  <option>Select Country</option>
-                  <option value="India">India</option>
-                  <option value="India">USA</option>
-                  <option value="India">UK</option>
-                  <option value="India">Australia</option>
-              
-                </select>
-                <div class="validation"></div>
-              </div>
-            
-              <div class="form-group col-md-6">
-                <select name="position" class="form-control" id="name" data-rule="minlen:4">
-                 
-                  <option>Select state</option>
-                  <option value="Bihar">Bihar</option>
-                  <option value="UP">Uttar Pradesh</option>
-                  <option value="Maharastra">Maharastra</option>
-
-                </select>
-                <div class="validation"></div>
-              </div>
-            
             </div>
 
              <div class="form-row">
-              
-              <div class="form-group col-md-6">
-              
-               <select name="position" class="form-control" id="name" data-rule="minlen:4">
-                 
-                  <option>Select City</option>
-                  <option value="Patna">Patna</option>
-                   <option value="Mumbai">Mumbai</option>
-                    <option value="Noida">Noida</option>
-                     <option value="Delhi">Delhi</option>
-              
-                </select>
-                <div class="validation"></div>
+
+              <div class="form-group col-md-12">
+               <select class="form-control">
+                 <option>Select Position</option>
+                  <option>Left</option>
+                   <option>Right</option>
+               </select>
               </div>
-            
-              <div class="form-group col-md-6">
-                   <input type="tel" class="form-control" name="pincode" id="email" placeholder="Pincodde" data-rule="email" data-msg="Please enter a valid email" />
-                <div class="validation"></div>
-              </div>
-            
+              
             </div>
+
+        <div class="row contact-info">
+         
+          <div class="col-md-12" style="background-color: black;height:40px">
+            <p style="color:white;padding-top: 10px">Personal Details</p>
+          </div>
+
+        </div> <!--contact info-->
+
+           <div class="form-row">
+
+               <div class="form-group col-md-2">
+                  <select class="form-control">
+                    <option value="Ms">Ms</option>
+                     <option value="Ms">Mrs</option>
+                      <option value="Ms">Mr</option>
+                  </select>
+                <div class="validation"></div>
+              </div>
+
+              <div class="form-group col-md-5">
+                <input type="text" name="sid" class="form-control" id="name" placeholder="Firstname" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                <div class="validation"></div>
+              </div>
+
+              <div class="form-group col-md-5">
+                <input type="text" name="sname" class="form-control" id="name" placeholder="Lastname" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                <div class="validation"></div>
+              </div>
+              
+            </div>
+
+            <div class="form-row">
+
+              <div class="form-group col-md-6">
+                <input type="text" name="sid" class="form-control" id="name" placeholder="Contact No" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                <div class="validation"></div>
+              </div>
+
+              <div class="form-group col-md-6">
+                <input type="text" name="sname" class="form-control" id="name" placeholder="Email ID" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                <div class="validation"></div>
+              </div>
+              
+            </div>
+
+            <div class="row contact-info">
+         
+            <div class="col-md-12" style="background-color: black;height:40px">
+             <p style="color:white;padding-top: 10px">Address Details</p>
+            </div>
+
+           </div><!--contact info-->
+
+            <div class="form-row">
+
+              <div class="form-group col-md-12">
+                <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Address"></textarea>
+                <div class="validation"></div>
+              </div>
+
+            </div>
+
+             <div class="form-row">
+
+              <div class="form-group col-md-6">
+                 <select class="form-control">
+                    <option>Select Country</option>
+                    <option value="India">India</option>
+                     <option value="America">America</option>
+                      <option value="Australia">Australia</option>
+                       <option value="London">London</option>
+                  </select>
+              </div>
+
+              <div class="form-group col-md-6">
+                <select class="form-control">
+                    <option>Select State</option>
+                    <option value="Bihar">Bihar</option>
+                     <option value="Rajasthan">Rajasthan</option>
+                      <option value="Uttar Pradesh">Uttar Pradesh</option>
+                       <option value="Karnataka">Karnataka</option>
+                  </select>
+              </div>
+              
+            </div>
+
+             <div class="form-row">
+
+              <div class="form-group col-md-6">
+                 <select class="form-control">
+                    <option>Select City</option>
+                    <option value="India">Patna</option>
+                     <option value="America">Jaipur</option>
+                      <option value="Australia">Noida</option>
+                       <option value="London">Bangalore</option>
+                  </select>
+              </div>
+
+              <div class="form-group col-md-6">
+                 <input type="text" name="pincode" class="form-control" id="name" placeholder="Pincode" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                <div class="validation"></div>
+              </div>
+              
+            </div>
+
+        <div class="row contact-info">
+         
+          <div class="col-md-12" style="background-color: black;height:40px">
+            <p style="color:white;padding-top: 10px">KYC Details</p>
+          </div>
+
+       </div><!--contact info-->
+
+     <div class="form-row">
+
+              <div class="form-group col-md-6">
+                
+                 <input type="text" name="sname" class="form-control" id="name" placeholder="Aadharcard No" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                 <div class="validation"></div>
+              </div>
+
+                <div class="form-group col-md-6">
+                 
+                  <div class="input-group">
+                   <div class="input-group-prepend">
+                     <span class="input-group-text" id="inputGroupFileAddon01">Upload</span>
+                   </div>
+                   <div class="custom-file">
+                    <input type="file" class="custom-file-input" id="inputGroupFile01" aria-describedby="inputGroupFileAddon01">
+                    <label class="custom-file-label" for="inputGroupFile01">Choose file</label>
+                  </div>
+                  </div>
+
+              </div>
+
+            </div>
+
+             <div class="form-row">
+
+              <div class="form-group col-md-6">
+                
+                 <input type="text" name="sname" class="form-control" id="name" placeholder="Pancard No" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                <div class="validation"></div>
+              </div>
+
+                <div class="form-group col-md-6">
+                   <div class="input-group">
+                   <div class="input-group-prepend">
+                     <span class="input-group-text" id="inputGroupFileAddon01">Upload</span>
+                   </div>
+                   <div class="custom-file">
+                    <input type="file" class="custom-file-input" id="inputGroupFile01" aria-describedby="inputGroupFileAddon01">
+                    <label class="custom-file-label" for="inputGroupFile01">Choose file</label>
+                  </div>
+                  </div>
+              </div>
+
+            </div>
+
+             <div class="form-row">
+
+              <div class="form-group col-md-6">
+                
+                 <input type="text" name="sname" class="form-control" id="name" placeholder="Voter Id" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                <div class="validation"></div>
+              </div>
+
+                <div class="form-group col-md-6">
+
+                  <div class="input-group">
+                   <div class="input-group-prepend">
+                     <span class="input-group-text" id="inputGroupFileAddon01">Upload</span>
+                   </div>
+                   <div class="custom-file">
+                    <input type="file" class="custom-file-input" id="inputGroupFile01" aria-describedby="inputGroupFileAddon01">
+                    <label class="custom-file-label" for="inputGroupFile01">Choose file</label>
+                  </div>
+                  </div>
+                 <!--<input type="file" name="sname" class="form-control" id="name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                <div class="validation"></div>-->
+              </div>
+
+            </div>
+
+             <div class="form-row">
+
+              <div class="form-group col-md-6">
+                
+                 <input type="text" name="sname" class="form-control" id="name" placeholder="Passport No" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                 <div class="validation"></div>
+              </div>
+
+              <div class="form-group col-md-6">
+                 <div class="input-group">
+                   <div class="input-group-prepend">
+                     <span class="input-group-text" id="inputGroupFileAddon01">Upload</span>
+                   </div>
+                   <div class="custom-file">
+                    <input type="file" class="custom-file-input" id="inputGroupFile01" aria-describedby="inputGroupFileAddon01">
+                    <label class="custom-file-label" for="inputGroupFile01">Choose file</label>
+                  </div>
+                  </div>
+              </div>
+
+            </div>
+
+             <div class="row contact-info">
         
-             <div class="form-row">
-              <div class="form-group col-md-6">
-                <input type="tel" name="adharId" class="form-control" id="name" placeholder="Adharcard No" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-                <div class="validation"></div>
-              </div>
-              <div class="form-group col-md-6">
-                <input type="tel" class="form-control" name="panId" id="email" placeholder="Pancard No" data-rule="email" data-msg="Please enter a valid email" />
-                <div class="validation"></div>
-              </div>
-            </div>
+          <div class="col-md-12" style="background-color: black;height:40px">
+            <p style="color:white;padding-top: 10px">Bank Details</p>
+          </div>
 
-             <div class="form-row">
-              <div class="form-group col-md-6">
-                <input type="tel" name="contact" class="form-control" id="name" placeholder="Contact No" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-                <div class="validation"></div>
-              </div>
-              <div class="form-group col-md-6">
-                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
-                <div class="validation"></div>
-              </div>
-            </div>
+        </div><!--contact info-->
 
-             <div class="form-row">
-              <div class="form-group col-md-6">
-                <input type="password" name="password" class="form-control" id="name" placeholder="Password" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-                <div class="validation"></div>
-              </div>
-              <div class="form-group col-md-6">
-                <input type="password" class="form-control" name="cpassword" id="email" placeholder="Confirm Password" data-rule="email" data-msg="Please enter a valid email" />
-                <div class="validation"></div>
-              </div>
-            </div>
+         <div class="form-row">
 
-              <div class="form-row">
-              <div class="form-group col-md-3"></div>
+              <div class="form-group col-md-6">
+                 <input type="text" name="sname" class="form-control" id="name" data-rule="minlen:4" placeholder="Bank Name" data-msg="Please enter at least 4 chars" />
+                <div class="validation"></div>
+              </div>
+
+                <div class="form-group col-md-6">
+                 <input type="text" name="sname" class="form-control" id="name" data-rule="minlen:4" placeholder="Branch Name" data-msg="Please enter at least 4 chars" />
+                <div class="validation"></div>
+              </div>
               
-              <div class="form-group col-md-6">
-               <p style="color:black">  <input type="checkbox"> I agree with terms & conditions.</p>
-              </div>
-
-               <div class="form-group col-md-3"></div>
-
             </div>
 
-            <div class="text-center"><button type="submit" style="background-color: black">Submit</button></div>
-          </form>
-        </div>
+            <div class="form-row">
 
-      </div>
-    </section>
-  </div>
+              <div class="form-group col-md-6">
+                 <input type="text" name="sname" class="form-control" id="name" data-rule="minlen:4" placeholder="Account No" data-msg="Please enter at least 4 chars" />
+                <div class="validation"></div>
+              </div>
 
-<div class="col-md-3"></div>
+                <div class="form-group col-md-6">
+                 <input type="text" name="sname" class="form-control" id="name" data-rule="minlen:4" placeholder="IFSC Code" data-msg="Please enter at least 4 chars" />
+                <div class="validation"></div>
+              </div>
+              
+            </div>
 
-</div>
+          <div class="row contact-info">
+         
+          <div class="col-md-12" style="background-color: black;height:40px">
+            <p style="color:white;padding-top: 10px">User Details</p>
+          </div>
+
+          </div><!--contact info-->
+
+         <div class="form-row">
+
+              <div class="form-group col-md-6">
+                <input type="text" name="password" class="form-control" id="name" placeholder="Password" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                <div class="validation"></div>
+              </div>
+
+              <div class="form-group col-md-6">
+                <input type="text" name="cpassword" class="form-control" id="name" placeholder="Confirm Password" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                <div class="validation"></div>
+              </div>
+              
+            </div>
+
+             <div class="form-row">
+                <div class="form-group col-md-12">
+                <center><input type="checkbox" name="tc" id="name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" /> I agree to the terms & conditions.</center>
+                <div class="validation"></div>
+                </div>
+             </div>
+
+            <div class="text-center">
+              <button type="submit" class="btn btn-success">Register</button>
+            </div>
+
+            </form> 
+          </div> <!--form-->
+         </div> <!--col-md-8-->
+
+        <div class="col-md-2"></div>
+
+  </div><!--row-->
+        
+  
+    </section><!-- #register -->
+
+  </body>
+
+</html>
